@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="hi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trade With Gautam Jhaa - Stock Market Learning & Analysis Community</title>
+    <!-- Tailwind CSS v3 CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                            900: '#064e3b',
+                            950: '#022c22',
+                        },
+                        slate: {
+                            850: '#131e32',
+                            900: '#0f172a',
+                            950: '#020617',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome 6 Icons CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .glow-effect {
+            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.25);
+        }
+        .btn-pulse {
+            animation: pulse-border 2s infinite;
+        }
+        @keyframes pulse-border {
+            0% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5);
+            }
+            70% {
+                box-shadow: 0 0 0 12px rgba(16, 185, 129, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between antialiased selection:bg-emerald-500 selection:text-slate-950">
+
+    <!-- Sticky Navbar Section -->
+    <header class="py-3 px-4 border-b border-slate-800/80 sticky top-0 bg-slate-950/90 backdrop-blur-md z-50">
+        <div class="max-w-md mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="https://iili.io/nj5vPII.jpg" 
+                     onerror="this.onerror=null; this.src='https://placehold.co/100x100/022c22/34d399?text=TWGJ';" 
+                     alt="Trade With Gautam Jhaa Logo" 
+                     class="w-10 h-10 rounded-full object-cover ring-2 ring-emerald-500/50 shadow-md">
+                <div>
+                    <h2 class="text-base font-bold tracking-tight text-white leading-tight">Trade With Gautam Jhaa</h2>
+                    <p class="text-[11px] text-emerald-400 font-medium flex items-center gap-1">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-ping"></span>
+                        Educational Community
+                    </p>
+                </div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 text-slate-300 text-[11px] px-2.5 py-1 rounded-full font-medium flex items-center gap-1">
+                <i class="fa-solid fa-users text-emerald-400 text-[10px]"></i> Active
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="w-full max-w-md mx-auto px-4 py-6 text-center flex-grow flex flex-col justify-center">
+        
+        <!-- Profile / Channel Badge Hero Section -->
+        <div class="flex flex-col items-center mb-6">
+            <div class="relative mb-3">
+                <img src="https://iili.io/nj5vPII.jpg" 
+                     onerror="this.onerror=null; this.src='https://placehold.co/160x160/022c22/34d399?text=TWGJ';" 
+                     alt="Trade With Gautam Jhaa Profile" 
+                     class="w-24 h-24 rounded-full object-cover border-2 border-emerald-400 p-1 shadow-xl glow-effect">
+                <span class="absolute bottom-2 right-1 w-5 h-5 bg-emerald-500 border-2 border-slate-950 rounded-full flex items-center justify-center text-[9px] text-slate-950 font-bold">
+                    <i class="fa-solid fa-check"></i>
+                </span>
+            </div>
+            
+            <div class="inline-flex items-center gap-2 bg-emerald-950/90 text-emerald-300 text-xs font-semibold px-4 py-1.5 rounded-full border border-emerald-700/60 shadow-sm">
+                <i class="fa-solid fa-graduation-cap text-emerald-400"></i>
+                Market Analysis & Discipline First
+            </div>
+        </div>
+
+        <!-- Fresh Main Headline -->
+        <h1 class="text-2xl sm:text-3xl font-extrabold text-white leading-snug mb-3 tracking-tight">
+            Smart Trading Psychology & Technical Analysis Seekhein
+        </h1>
+
+        <!-- Fresh Hinglish Subheadline -->
+        <p class="text-slate-300 text-sm sm:text-base mb-6 leading-relaxed px-1">
+            Har din Nifty, BankNifty technical chart setups, market trend insights, aur price action logic samajhne ke liye <span class="text-emerald-400 font-bold">Trade With Gautam Jhaa</span> community se judein.
+        </p>
+
+        <!-- Fresh Policy Compliant Feature Cards -->
+        <div class="bg-slate-900/90 p-5 rounded-2xl border border-slate-800 mb-6 text-left space-y-3.5 shadow-xl">
+            <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-emerald-950/80 border border-emerald-800/60 flex items-center justify-center shrink-0 mt-0.5">
+                    <i class="fa-solid fa-chart-candlestick text-emerald-400 text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="text-white text-xs sm:text-sm font-semibold">Daily Index Trend & Price Action</h3>
+                    <p class="text-slate-400 text-xs mt-0.5">Nifty aur BankNifty ke key levels & technical structure seekhein.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-emerald-950/80 border border-emerald-800/60 flex items-center justify-center shrink-0 mt-0.5">
+                    <i class="fa-solid fa-shield-halved text-emerald-400 text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="text-white text-xs sm:text-sm font-semibold">Risk Management & Capital Protection</h3>
+                    <p class="text-slate-400 text-xs mt-0.5">Strict stop loss, position sizing aur risk-to-reward ratio ka discipline.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-emerald-950/80 border border-emerald-800/60 flex items-center justify-center shrink-0 mt-0.5">
+                    <i class="fa-solid fa-brain text-emerald-400 text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="text-white text-xs sm:text-sm font-semibold">Trading Psychology & Mindset</h3>
+                    <p class="text-slate-400 text-xs mt-0.5">Overtrading aur FOMO se bachne ke practical learning insights.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Prominent Telegram CTA Button -->
+        <div class="w-full my-2">
+            <a href="https://t.me/+pwct-gVN1NM5Njg1" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="w-full bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-600 hover:from-emerald-600 hover:to-teal-700 active:bg-emerald-700 text-white font-bold py-4 px-5 rounded-xl shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-3 text-base sm:text-lg transition-all duration-200 transform active:scale-98 btn-pulse">
+                <i class="fa-brands fa-telegram text-2xl"></i>
+                <span>Join Free Telegram Channel</span>
+            </a>
+            <p class="text-[11px] text-slate-400 mt-2 font-medium">
+                <i class="fa-solid fa-lock text-emerald-400 text-[10px] mr-1"></i> Free Educational Access • No Fees Included
+            </p>
+        </div>
+
+    </main>
+
+    <!-- Footer / SEBI Disclaimer / Compliance Section -->
+    <footer class="bg-slate-950 py-6 px-4 border-t border-slate-900 text-slate-400 text-xs text-center mt-auto">
+        <div class="max-w-md mx-auto space-y-3">
+            
+            <p class="font-semibold text-slate-300 text-xs">Important SEBI Compliance Disclaimer:</p>
+            <p class="text-[11px] leading-relaxed text-slate-400">
+                Yeh channel aur website keval <b>Educational aur Learning purposes</b> ke liye hain. Hum SEBI registered financial advisor, research analyst, ya portfolio manager nahi hain. Stock market, Futures & Options (F&O) trading me high financial risk hota hai. Hum kisi bhi guaranteed returns, fixed profit, ya advisory calls ki guarantee nahi dete. Kisi bhi tarah ka trade ya investment lene se pehle apne certified SEBI registered financial advisor se consult zaroor karein.
+            </p>
+            
+            <!-- Promoted By Section -->
+            <div class="pt-3 border-t border-slate-900/80">
+                <p class="text-xs text-slate-300 font-medium">
+                    Promoted By 
+                    <a href="https://t.me/+3XoqJNLxYHswNTc1" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="text-emerald-400 hover:text-emerald-300 underline font-bold transition-colors ml-1 inline-flex items-center gap-1">
+                        AD BUILD AGENCY
+                        <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                    </a>
+                </p>
+            </div>
+
+            <!-- Mandatory Links -->
+            <div class="pt-2 text-[11px] text-slate-500 flex justify-center items-center gap-3">
+                <a href="https://t.me/+pwct-gVN1NM5Njg1" onclick="event.preventDefault(); alert('Privacy Policy: This educational website respects user privacy and does not collect personal identity data without consent.');" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
+                <span>•</span>
+                <a href="https://t.me/+pwct-gVN1NM5Njg1" onclick="event.preventDefault(); alert('Terms of Service: Content provided on this page and associated Telegram channel is purely educational.');" class="hover:text-slate-300 transition-colors">Terms & Conditions</a>
+            </div>
+
+            <!-- Anti-Endorsement Note for Meta Policy -->
+            <p class="text-[10px] text-slate-600 pt-1 leading-tight">
+                This site is not a part of Meta, Facebook website or Meta Inc. Additionally, This site is NOT endorsed by Meta in any way. FACEBOOK is a trademark of META, Inc.
+            </p>
+        </div>
+    </footer>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3147912952067487');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3147912952067487&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</body>
+</html>
